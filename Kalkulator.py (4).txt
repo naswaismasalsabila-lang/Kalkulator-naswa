@@ -1,0 +1,16 @@
+bil1 = int(input("bil 1 = "))
+opr = input("opr(+ - * / %) = ")
+bil2 = int(input("bil 2 = "))
+
+if opr == "+" :
+        print(bil1, "+",bil2,"=",bil1 + bil2)
+elif opr == "-" :
+        print(bil1, "-",bil2,"=",bil1 - bil2)
+elif opr == "*" :
+        print(bil1, "×",bil2,"=",bil1 * bil2)
+elif opr == "/" :
+        print(bil1, ":",bil2,"=",bil1 / bil2)
+elif opr == "%" :
+        print(bil1, "%",bil2,"%",bil1 % bil2)
+else :
+        print("Error : pilih + - * / %")
